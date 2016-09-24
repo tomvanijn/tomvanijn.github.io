@@ -37,10 +37,10 @@
     <div class="nav">
         <ul class="nav-list">
         <li><a class="nav-item" href="index.html">Home</a></li>
-        <li><a class="nav-item" href="portfolio.html">Portfolio</a></li>
         <li><a class="active" href="resume.html">Resume</a></li>
-        <li><a class="nav-item" href="biografie.html">Biografie</a></li>
-        <li><a class="nav-item" href="contact.html">Contact</a></li>
+        <li><a class="nav-item" href="index.html#port">Portfolio</a></li>
+
+        
     </ul>
         
     </div>
@@ -66,10 +66,24 @@
     </section>
     <!-- /head -->
 
-    <div class="wrap port-wrap">
+    <div class="wrap port-wrap"><br><br><br><br>
     
-    <h1 class="bio-head">filling resume...<br><br><br><br><br><br><br><br><br><br><br><br><br><br></h1>
-    
+    <section class="row bio-wrap">
+
+        <div class="col-33">
+            <a href="biografie.html">
+                <img class="bio-img" src="media/Index/picture.png" alt="Biografie">
+            </a>
+        </div>
+        <div class="col-66">
+            <h1 id="bio-head">Hallo, mijn naam is Tom.</h1>
+            <br>
+            <p class="white-txt">Geboren in 1997, Deventer: Nederland. Ik ben al sinds dag &eacute;&eacute;n bezig met bouwen, tekenen en ontdekken. Tekenen op het basis onderwijs, het liefst de hele dag.
+                <br> Op de middelbare school werd het steeds meer ontwerpen. Grafimedia op mijn tweede middelbare school; verhuist naar Nijmegen. Hier kwam ik in aanraking met Grafimedia en de Design wereld. Vanaf toen wist ik het; Ik wil games maken en ontwerpen!
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!-- /bio -->    
     </div>
     
     <!-- /bio window -->
@@ -87,8 +101,23 @@
     <!-- End DOM // Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <!-- <scrip></scrip> -->
-</body>
+    <script>
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+</script>
+    </body>
 
 </html>
 <!-- End document

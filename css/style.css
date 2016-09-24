@@ -277,10 +277,6 @@ a:active {
     text-decoration: underline;
 }
 
-.thumbs-head:hover {
-    text-decoration: line-through;
-}
-
 .thumb-title {
     margin-top: 30px;
     max-width: 1430px;
@@ -404,7 +400,7 @@ a:active {
 }
 
 .bio-wrap {
-    background-color: white;
+    background-color: #333333;
     max-width: 1430px;
     padding-bottom: 120px;
 }
