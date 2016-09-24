@@ -23,7 +23,7 @@ a:active {
 
 .link {
     text-decoration: none;
-    color: #9368AF;
+    color: #7b0398;
     transition-delay: 100ms;
     transition-duration: 100ms;
     transition: all 0.3s ease 0s;
@@ -31,8 +31,8 @@ a:active {
 }
 
 .link:hover {
-    background-color: #9368AF;
-    color: white;
+    background-color: #7b0398;
+    color: #f2f2f2;
     transition-delay: 300ms;
     transition-duration: 100ms;
     transition: all 0.3s ease 0s;
@@ -41,7 +41,7 @@ a:active {
 .link-b {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: #9368AF;
+    color: #7b0398;
     transition-delay: 100ms;
     transition-duration: 100ms;
     transition: all 0.3s ease 0s;
@@ -49,8 +49,8 @@ a:active {
 }
 
 .link-b:hover {
-    background-color: #9368AF;
-    color: white;
+    background-color: #7b0398;
+    color: #f2f2f2;
     transition-delay: 300ms;
     transition-duration: 100ms;
     transition: all 0.3s ease 0s;
@@ -71,8 +71,8 @@ a:active {
 }
 
 .nav-item {
-    color: #9368AF;
-    border: 1px solid white;
+    color: #7b0398;
+    border: 1px solid #f2f2f2;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #333333;
@@ -86,8 +86,8 @@ a:active {
 }
 
 .nav-item:hover {
-    background-color: #9368AF;
-    color: white;
+    background-color: #7b0398;
+    color: #f2f2f2;
     font-style: normal;
     padding: 5px 50px 5px 15px;
     transition-delay: 300ms;
@@ -96,11 +96,11 @@ a:active {
 }
 
 .active {
-    color: white;
-    border: 1px solid white;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #9368AF;
+    background-color: #7b0398;
     padding: 5px 15px;
     font-size: 21px;
     letter-spacing: 2px;
@@ -117,8 +117,8 @@ a:active {
 }
 
 .nav-desc {
-    color: white;
-    border-bottom: 1px white solid;
+    color: #f2f2f2;
+    border-bottom: 1px #f2f2f2 solid;
 }
 
 .nav-credit {
@@ -127,14 +127,14 @@ a:active {
 }
 
 .nav-tools {
-    color: #9368AF
+    color: #7b0398
 }
 
 
 /* name top */
 
 .top-wrap {
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 }
 
 .top-row {
@@ -147,7 +147,7 @@ a:active {
     letter-spacing: -5px;
     text-decoration: line-through;
     font-style: italic;
-    color: #9368AF;
+    color: #7b0398;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -165,7 +165,7 @@ a:active {
 /* Head video bg section */
 
 .head-wrap {
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     margin: 0 auto;
     max-width: 1430px;
 }
@@ -193,7 +193,7 @@ a:active {
     font-size: 38px;
     font-weight: 700;
     text-rendering: optimizeSpeed;
-    color: #ffffff;
+    color: #f2f2f2;
     text-align: center;
     text-shadow: 0px 1px 2px #333333;
 }
@@ -217,28 +217,28 @@ a:active {
     margin-bottom: 18px;
     text-align: center;
     padding: 12px 20px;
-    color: #9368AF;
+    color: #7b0398;
     font-size: 22px;
     text-decoration: none;
-    border: solid 4px #ffffff;
+    border: solid 4px #f2f2f2;
     transition-delay: 100ms;
     transition-duration: 200ms;
     transition: all 0.3s ease 0s;
-    color: white;
+    color: #f2f2f2;
 }
 
 .cta-head:hover {
-    border: solid 4px #9368AF;
+    border: solid 4px #7b0398;
     transition-delay: 100ms;
     transition-duration: 200ms;
     transition: all 0.3s ease 0s;
-    color: #9368AF;
+    color: #7b0398;
 }
 
 .cta-under {
     margin: 0 auto;
     text-align: center;
-    color: #ffffff;
+    color: #f2f2f2;
     font-size: 18px;
     text-decoration: none;
 }
@@ -248,14 +248,14 @@ a:active {
     font-weight: 600;
     font-family: 'roboto', sans-serif;
     text-transform: lowercase;
-    color: white;
+    color: #f2f2f2;
     transition-delay: 100ms;
     transition-duration: 100ms;
     transition: all 0.3s ease 0s;
 }
 
 .cta-under a:hover {
-    background-color: #9368AF;
+    background-color: #7b0398;
     padding: 5px 20px 5px 20px;
     text-transform: uppercase;
     transition-delay: 300ms;
@@ -268,7 +268,7 @@ a:active {
 .port-wrap {
     background-color: #333333;
     padding-bottom: 50px;
-    border-top: 1px solid #9368AF;
+    border-top: 1px solid #7b0398;
 }
 
 .thumbs-head {
@@ -276,7 +276,7 @@ a:active {
     max-width: 1430px;
     font-size: 38px;
     font-weight: 700;
-    color: #ffffff;
+    color: #f2f2f2;
     text-align: left;
     text-decoration: underline;
 }
@@ -286,7 +286,7 @@ a:active {
     max-width: 1430px;
     font-weight: 700;
     text-rendering: optimizeSpeed;
-    color: #ffffff;
+    color: #f2f2f2;
     text-align: left;
 }
 
@@ -314,7 +314,7 @@ a:active {
 .thumb-img:hover {
     opacity: 1;
     transition: ease 300ms;
-    border: 2px solid #ffffff;
+    border: 2px solid #f2f2f2;
 }
 
 /* Project pages */
@@ -322,7 +322,7 @@ a:active {
 .project-wrap {
     background-color: #333333;
     padding-bottom: 50px;
-    border-top: 1px solid #9368AF;
+    border-top: 1px solid #7b0398;
     padding-top: 60px;
     padding-bottom: 45px;
 }
@@ -337,7 +337,7 @@ a:active {
     max-width: 1430px;
     font-size: 38px;
     font-weight: 700;
-    color: #ffffff;
+    color: #f2f2f2;
     text-align: left;
     text-decoration: underline;
 }
@@ -351,7 +351,7 @@ a:active {
     max-width: 1430px;
     font-weight: 700;
     text-rendering: optimizeSpeed;
-    color: #ffffff;
+    color: #f2f2f2;
     text-align: left;
 }
 
@@ -390,8 +390,8 @@ a:active {
     line-height: 25px;
 }
 
-.white-txt {
-    color: white;
+.#f2f2f2-txt {
+    color: #f2f2f2;
     margin: 0;
     line-height: 25px;
     font-size: 19px;
@@ -400,7 +400,7 @@ a:active {
 #bio-head {
     padding-left: 35px;
     margin: 0;
-    color: #9368AF;
+    color: #7b0398;
 }
 
 .bio-wrap {
@@ -413,7 +413,7 @@ a:active {
     font-size: 38px;
     font-weight: 700;
     text-rendering: geometricPrecision;
-    color: #ffffff;
+    color: #f2f2f2;
     text-align: center;
     text-shadow: 0px 1px 2px #333333;
 }
@@ -443,7 +443,7 @@ a:active {
 /* timeline */
 
 #time-txt {
-    background-color: white;
+    background-color: #f2f2f2;
     padding-left: 35px;
     color: #333333;
     font-size: 19px;
@@ -455,11 +455,11 @@ a:active {
     text-align: left;
     padding-left: 35px;
     margin: 0;
-    color: #9368AF;
+    color: #7b0398;
 }
 
 .time-wrap {
-    background-color: white;
+    background-color: #f2f2f2;
     max-width: 1230px;
     padding-bottom: 120px;
 }
@@ -468,7 +468,7 @@ a:active {
     font-size: 38px;
     font-weight: 700;
     text-rendering: geometricPrecision;
-    color: #ffffff;
+    color: #f2f2f2;
     text-align: center;
     text-shadow: 0px 1px 2px #333333;
 }
@@ -528,7 +528,7 @@ a:active {
     padding-bottom: 30px;
     color: #acacac;
     font-style: italic;
-    border-top: 1px #9368AF solid;
+    border-top: 1px #7b0398 solid;
 }
 
 .footer a {
@@ -538,7 +538,7 @@ a:active {
 }
 
 .footer a:hover {
-    color: white;
+    color: #f2f2f2;
 }
 
 
