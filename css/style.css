@@ -126,6 +126,10 @@ a:active {
     font-style: italic;
 }
 
+.nav-tools {
+    color: #9368AF
+}
+
 
 /* name top */
 
@@ -169,7 +173,7 @@ a:active {
 .video {
     position: relative;
     width: 1430px;
-    height: auto;
+    height: 805px;
     background-image: url(../media/no-video.png);
     background-repeat: no-repeat;
     background-size: cover;
