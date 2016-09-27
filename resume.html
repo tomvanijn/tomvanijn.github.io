@@ -6,7 +6,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
     <title>Tom | Resume</title>
-    <meta name="description" content="Game Artist student aan het GLU. Portfolio en Bio">
+    <meta name="description" content="Tom van Asten Portfolio website - Student aan het GLU Utrecht">
     <meta name="author" content="Tom van Asten">
 
     <!-- Mobile Specific Metas
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- Favicon 
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="shortcut icon" href="imgs/favicon.png">
+    <link rel="shortcut icon" href="media/favicon.png">
 
 
 </head>
@@ -50,7 +50,7 @@
         <div class="row top-row">
             <div class="col-100">
                 <a href="index.html"><h1>&nbsp;&nbsp;TOM&nbsp;&nbsp;VAN&nbsp;&nbsp;ASTEN&nbsp;&nbsp;&nbsp;&nbsp;</h1></a>
-                <p>3D Enviorment Artist student</p>
+                <p>3D GAME ARTIST STUDENT</p>
             </div>
         </div>
     </section>
@@ -71,19 +71,39 @@
     <section class="row bio-wrap">
 
         <div class="col-33">
-            <a href="biografie.html">
-                <img class="bio-img" src="media/Index/picture.png" alt="Biografie">
-            </a>
+                <img src="media/picture.png" alt="Biografie" width="425px" height="425px">
         </div>
         <div class="col-66">
-            <h1 id="bio-head">Hallo, mijn naam is Tom.</h1>
+            <h1 class="bio-txt">Hallo, mijn naam is Tom.</h1><br>
             <br>
-            <p class="white-txt">Geboren in 1997, Deventer: Nederland. Ik ben al sinds dag &eacute;&eacute;n bezig met bouwen, tekenen en ontdekken. Tekenen op het basis onderwijs, het liefst de hele dag.
-                <br> Op de middelbare school werd het steeds meer ontwerpen. Grafimedia op mijn tweede middelbare school; verhuist naar Nijmegen. Hier kwam ik in aanraking met Grafimedia en de Design wereld. Vanaf toen wist ik het; Ik wil games maken en ontwerpen!
+            <h1 class="bio-txt">Ik ben student aan het GLU in Utrecht,<br>
+Mijzelf in drie woorden?
+<br><br><br>
+<span class="bio-effects animated fadein" id="w15">doorzetten, creatief, twenty-four-seven</span><br><br>
+            meer heeft een goeie artist niet nodig.</h1><br>
+            <p class="bio-small bio-txt animated fadein" id="w3">en af en toe een pizza punt... mmm...</p>
         </div>
         <div class="clearfix"></div>
     </section>
     <!-- /bio -->    
+        
+        <section class="row">
+            <div class="col-100">
+                    <a href="media/TomVanAsten_CV.pdf" target="_blank"><img class="cv-cv" src="media/TomVanAsten_CV.png" alt="CV pdf image and link"></a>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+        
+        <div class="cv-cta">
+        
+        <a onmouseover="hover('Contact Opnemen!')" id="content">Contact Opnemen?</a>
+<!-- linkje naar email zoals footer -->
+        
+        </div>
+            <!-- /skills -->
+
+
+
     </div>
     
     <!-- /bio window -->
@@ -116,6 +136,11 @@ $('a[href*=#]:not([href=#])').click(function() {
         }
     }
 });
+
+    function hover(description) {
+        console.log(description);
+        document.getElementById('content').innerHTML = description;
+    }
 </script>
     </body>
 
