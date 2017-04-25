@@ -389,6 +389,19 @@ a:active {
     transition: ease 300ms;
 }
 
+.project-img2 {
+    opacity: 0.85;
+    transition: ease-in-out 200ms;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1px;
+    overflow: auto;
+}
+
+.project-img2:hover {
+    opacity: 1;
+    transition: ease 300ms;
+}
 /* bio */
 
 .bio-txt {
